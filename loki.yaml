@@ -23,10 +23,10 @@ loki:
         store: boltdb-shipper
     storage_config:
       aws:
-        bucketnames: vino-loki
+        bucketnames: test-loki
         insecure: false
         region: eu-west-2
-        s3: s3://eu-west-2/vino-loki
+        s3: s3://eu-west-2/test-loki
         s3forcepathstyle: true
         sse_encryption: false
       boltdb_shipper:
